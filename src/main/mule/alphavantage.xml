@@ -137,7 +137,7 @@ output application/json
 	"symbol" : attributes.queryParams.sym
 }]]]></http:query-params>
 		</http:request>
-		<ee:transform doc:name="Transform Message1" doc:id="3745cd5a-66d3-4539-b8e7-f005cb48132b" >
+		<ee:transform doc:name="Stock data" doc:id="3745cd5a-66d3-4539-b8e7-f005cb48132b" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
