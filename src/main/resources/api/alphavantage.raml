@@ -1,0 +1,20 @@
+#%RAML 1.0
+title: alphavantage
+
+/alpha:
+  get:
+    queryParameters:
+      sym:
+        required: true
+        type: string
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              {
+                "intradaydata" : "Fetched Successfully"
+              }
+  
+  
+
